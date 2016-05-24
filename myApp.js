@@ -32,6 +32,7 @@ var Helloworld = cc.Layer.extend({
         var menu = cc.Menu.create(addTagMenuItem, removeTagMenuItem);
         menu.setPosition(cc.p(winSize.width * 4 / 5, 25));
         menu.alignItemsHorizontallyWithPadding(20);
+
         this.addChild(menu);
 
         return true;
